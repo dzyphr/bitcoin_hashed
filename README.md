@@ -1,6 +1,6 @@
 # Bitcoin Hashed
 
-A community oriented, minimally modified build of Bitcoin Core, based on the signed release tag `v32.1`. 
+A community oriented, minimally modified build of Bitcoin Core, based on the signed release tag `v32.0`. 
 
 **This is a SOFT fork, consensus code is unmodified.**
 
