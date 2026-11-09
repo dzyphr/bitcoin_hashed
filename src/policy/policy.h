@@ -49,7 +49,7 @@ inline constexpr unsigned int DEFAULT_INCREMENTAL_RELAY_FEE{100};
 /** Default for -bytespersigop */
 inline constexpr unsigned int DEFAULT_BYTES_PER_SIGOP{20};
 /** Default for -permitbaremultisig */
-inline constexpr bool DEFAULT_PERMIT_BAREMULTISIG{true};
+inline constexpr bool DEFAULT_PERMIT_BAREMULTISIG{false}; 
 /** The maximum number of witness stack items in a standard P2WSH script */
 inline constexpr unsigned int MAX_STANDARD_P2WSH_STACK_ITEMS{100};
 /** The maximum size in bytes of each witness stack item in a standard P2WSH script */
@@ -81,7 +81,9 @@ inline constexpr bool DEFAULT_ACCEPT_DATACARRIER = true;
 /**
  * Default setting for -datacarriersize in vbytes.
  */
-inline constexpr unsigned int MAX_OP_RETURN_RELAY = MAX_STANDARD_TX_WEIGHT / WITNESS_SCALE_FACTOR;
+//OLD - CORE//inline constexpr unsigned int MAX_OP_RETURN_RELAY = MAX_STANDARD_TX_WEIGHT / WITNESS_SCALE_FACTOR;
+static constexpr unsigned int MAX_OP_RETURN_RELAY = 83;
+
 /**
  * An extra transaction can be added to a package, as long as it only has one
  * ancestor and is no larger than this. Not really any reason to make this
