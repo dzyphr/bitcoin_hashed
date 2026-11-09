@@ -6,9 +6,9 @@ A community oriented, minimally modified build of Bitcoin Core, based on the sig
 
 We intend on prioritizing:
 
-    - chain health
-    - contributor & maintainer agency
-    - overall decentralization
+- chain health
+- contributor & maintainer agency
+- overall decentralization
 
 Mods made so far:
 *subject to change at any point, engage with community to help determine necessary mods*
@@ -16,8 +16,8 @@ Mods made so far:
 
 Policy defaults:
 
-    - datacarriersize: 83
-    - permitbaremultisig: 0 (False)
+- datacarriersize: 83
+- permitbaremultisig: 0 (False)
 
 
 > Bitcoin Core's original README is in [README_CORE.md](README_CORE.md),
