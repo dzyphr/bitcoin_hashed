@@ -10,7 +10,8 @@ We intend on prioritizing:
 - contributor & maintainer agency
 - overall decentralization
 
-Mods made so far:
+## Mods made so far:
+
 *subject to change at any point, engage with community to help determine necessary mods*
 
 
@@ -19,6 +20,8 @@ Policy defaults:
 - datacarriersize: 83
 - permitbaremultisig: 0 (False)
 
+
+## Bitcoin Core Upstream Info
 
 > Bitcoin Core's original README is in [README_CORE.md](README_CORE.md),
 > copied from the release this branch is based on. For the latest version of
