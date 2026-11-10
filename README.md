@@ -20,6 +20,11 @@ Policy defaults:
 - datacarriersize: 83
 - permitbaremultisig: 0 (False)
 
+Branding: 
+
+- Client name: Bitcoin Hashed
+- User agent comment: `bitcoin_hashed`
+
 
 ## Bitcoin Core Upstream Info
 
